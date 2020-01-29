@@ -55,7 +55,7 @@ dir_name = dir_names[i]
   i += 1
 end
 
-end
+
   directors_totals
   end
 
