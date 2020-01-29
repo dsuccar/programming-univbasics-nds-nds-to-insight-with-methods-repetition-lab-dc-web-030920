@@ -50,8 +50,8 @@ def total_gross(source)
   directors_totals = 0
 
 while i < dir_names.length do
-dir_name = dir_names[i]
-  directors_totals += dir_to_earnings_hash[dir_name]
+
+  directors_totals += dir_to_earnings_hash[dir_names[i]]
   i += 1
 end
 
